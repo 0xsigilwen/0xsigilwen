@@ -1,6 +1,6 @@
 # 🚀 Flaunch.gg Integration Project
 
-![https://github.com/0xsigilwen/0xsigilwen/blob/main/README.md](https://raw.githubusercontent.com/flayerlabs/flaunchgg-contracts/main/assets/banner.png) 
+![https://github.com/0xsigilwen](https://raw.githubusercontent.com/flayerlabs/flaunchgg-contracts/main/assets/banner.png) 
 *Catatan: Ganti URL gambar di atas dengan logo flaunch.gg yang kamu ambil dari profil X/GitHub mereka.*
 
 ## 📌 Deskripsi
