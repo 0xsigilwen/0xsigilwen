@@ -21,3 +21,17 @@ Proyek ini adalah implementasi menggunakan **Flaunch SDK** untuk berinteraksi de
 ### 1. Instalasi
 ```bash
 npm install @flayerlabs/flaunch-sdk viem
+PRIVATE_KEY=your_private_key_here
+BASE_RPC_URL=[https://mainnet.base.org](https://mainnet.base.org)
+import { FlaunchSDK } from '@flayerlabs/flaunch-sdk';
+
+const sdk = new FlaunchSDK({
+  chainId: 8453, // Base Mainnet
+});
+
+// Contoh: Mendapatkan data token
+const getTokenData = async (tokenAddress: string) => {
+  const data = await sdk.getToken(tokenAddress);
+  console.log("Token Info:", data);
+};
+
